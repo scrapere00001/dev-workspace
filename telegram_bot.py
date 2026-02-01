@@ -12,7 +12,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # Configurations
 TELEGRAM_TOKEN = "8296246685:AAFVMnovSsC-3Gl1u53iXgvw1mp-BgQ0zaw"
-GOOGLE_API_KEY = "AIzaSyC4HZkkrqGPNXpZzsQIz--rdcT4TcNy3ds"  # Using the selected working key
+GOOGLE_API_KEY = "AIzaSyBa0mgj3CC2mJAQUgrkksF-wl8a9xIzqxU"  # Rotated key
 
 # Setup logging
 logging.basicConfig(
@@ -70,7 +70,7 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     """Start the bot."""
     print("Starting Telegram Bot...")
-    print(f"Bot Username: (User Provided Bot)")
+    print(f"Bot Username: @ProjectMothBot")
     
     # Create the Application
     application = Application.builder().token(TELEGRAM_TOKEN).build()
