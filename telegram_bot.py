@@ -11,7 +11,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Configurations
-TELEGRAM_TOKEN = "7556327204:AAEadPkoRKu-6KkHl6ciuucdfzpJM3jXz38"
+TELEGRAM_TOKEN = "8296246685:AAFVMnovSsC-3Gl1u53iXgvw1mp-BgQ0zaw"
 GOOGLE_API_KEY = "AIzaSyC4HZkkrqGPNXpZzsQIz--rdcT4TcNy3ds"  # Using the selected working key
 
 # Setup logging
@@ -70,7 +70,7 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     """Start the bot."""
     print("Starting Telegram Bot...")
-    print(f"Bot Username: @KimNetworkEventUser_bot")
+    print(f"Bot Username: (User Provided Bot)")
     
     # Create the Application
     application = Application.builder().token(TELEGRAM_TOKEN).build()
